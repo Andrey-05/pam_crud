@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <EditText
+            android:id="@+id/edtSelecionarID"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/id_da_pessoa"
+            android:inputType="number"
+            />
+        <Button
+            android:id="@+id/btnProcurar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/procurar"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtNome"
+        android:hint="Nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"/>
+    <EditText
+        android:id="@+id/edtCep"
+        android:hint="CEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"/>
+    <EditText
+        android:id="@+id/edtBairro"
+        android:hint="Bairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"/>
+    <EditText
+        android:id="@+id/edtEndereco"
+        android:hint="Endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"/>
+    <Button
+        android:id="@+id/btnAtualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atualizar"/>
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnVoltar"/>
+
+</LinearLayout>
