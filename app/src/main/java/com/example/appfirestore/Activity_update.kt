@@ -81,7 +81,7 @@ class Activity_update : AppCompatActivity() {
                 Toast.makeText(this, "Campos inválidos", Toast.LENGTH_SHORT).show()
             } else {
                 val pessoa = hashMapOf("nome" to nome, "cep" to cep, "bairro" to bairro, "endereco" to endereco)
-                db.collection("cadastro")
+                db.collection("usuario")
                     .document(id)
                     .set(pessoa)
                     .addOnSuccessListener {

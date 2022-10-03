@@ -5,27 +5,42 @@
     android:orientation="vertical"
     android:gravity="center"
     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
     <Button
         android:id="@+id/btnNavegarCadastrar"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
         android:text="@string/btnCadastrar"/>
     <Button
         android:id="@+id/btnNavegarConsultar"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/btnConsultar"/>
 
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
     <Button
         android:id="@+id/btnNavegarDeletar"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
         android:text="@string/btnDeletar" />
 
     <Button
         android:id="@+id/btnNavegarEditar"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/btnAtualizar" />
-
+    </LinearLayout>
 </LinearLayout>
